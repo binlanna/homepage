@@ -1,15 +1,16 @@
 main {
-    /* The image used */
-    background-image: url("assets/base.png");
-    /* Set a specific height */
-    min-height: 1400px; 
-    
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("assets/base.png");
+  /* Set a specific height */
+  min-height: 1400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 blockquote {
   font-family: Georgia, serif;
   font-size: 18px;
@@ -20,9 +21,9 @@ blockquote {
   line-height: 1.45;
   position: relative;
   color: #000000;
-  }
-  
-  blockquote:before {
+}
+
+blockquote:before {
   display: block;
   padding-left: 10px;
   content: "\201C";
@@ -31,28 +32,66 @@ blockquote {
   left: -20px;
   top: -20px;
   color: #000000;
-  }
-  
-  blockquote cite {
-  color: #000000;
+}
+
+blockquote cite {
+  color: #521313;
   font-size: 14px;
   display: block;
   margin-top: 5px;
-  }
-   
-  blockquote cite:before {
+}
+
+blockquote cite:before {
   content: "\2014 \2009";
-  }
+}
 
-  .links{
-    font-family: 'Times New Roman', serif;
-    font-size: 23px;
-    text-decoration: none;
-    color: black;
-  }
-
-  .linksicon{
-  width:23px;
-  height:23px;
+.links {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  font-size: 23px;
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  border:1px solid #521313;  
+ }
+.linksicon {
+  margin: 0 auto;
+  width: 23px;
+  height: 23px;
   display: inline;
-  }
+}
+
+.divider {
+  border-top: 0.3571428571428571em solid #521313;
+  width: 100%;
+}
+
+.biographytext {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+
+  color: #000000;
+}
+
+.lifetimelists{
+  display: flex;
+  /* column-gap: 50%; */
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+ul{
+  padding-left: 20px;
+}
+
+li{
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+
+  color: #000000;
+}
