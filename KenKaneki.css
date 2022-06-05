@@ -53,9 +53,9 @@ blockquote cite:before {
   text-decoration: none;
   color: black;
 }
-a:hover{
-  border:1px solid #521313;  
- }
+a:hover {
+  border: 1px solid #521313;
+}
 .linksicon {
   margin: 0 auto;
   width: 23px;
@@ -76,7 +76,7 @@ a:hover{
   color: #000000;
 }
 
-.lifetimelists{
+.lifetimelists {
   display: flex;
   /* column-gap: 50%; */
   width: 100%;
@@ -84,11 +84,11 @@ a:hover{
   align-content: center;
   flex-direction: row;
 }
-ul{
+ul {
   padding-left: 20px;
 }
 
-li{
+li {
   font-family: Georgia, serif;
   font-size: 18px;
   font-style: italic;
